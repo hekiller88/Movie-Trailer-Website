@@ -1,5 +1,5 @@
 import media
-import fresh_tomatoes
+import web_generator
 
 
 # Toy Story: movie title, storyline, poster image and movie trailer
@@ -24,4 +24,4 @@ man_on_fire = media.Movie("Man on Fire",
 movies = [toy_story, avatar, man_on_fire]
 
 # open the HTML file in a browser via the fresh_tomatoes.py file
-fresh_tomatoes.open_movies_page(movies)
+web_generator.open_movies_page(movies)
